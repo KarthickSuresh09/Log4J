@@ -1,0 +1,8 @@
+- name: Setup Prometheus, Grafana, Node Exporter
+  hosts: monitoring
+  become: yes
+  roles:
+    - prometheus
+    - grafana
+    - node_exporter
+
