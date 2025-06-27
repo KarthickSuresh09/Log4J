@@ -1,0 +1,55 @@
+Step 1:
+create connection between master & slave machine
+by using command ssh-keygen -t rsa
+
+
+Step 2:
+Enter your Node name in name section
+* Name
+
+Step 3:
+* Description 
+Description is optional 
+
+Step 4:
+Number of executors means If a node has 2 executors, then 2 jobs can run at the same time on that node.
+* Number of executors
+ "1"
+
+Step 5:
+you need to create one folder to run job
+* Remote root directory
+"/tmp1"
+
+Step 6:
+In Jenkins, “Usage” in a node’s configuration controls how the node (agent) is used for job execution.
+* Usage
+"Use this node as much as possible"
+
+
+Step 7:
+* Launch method
+* Launch agent via SSH
+* Host
+In host enter your Ip OR domain name 
+* Credentials
+* +ADD
+   > Domain
+   > Global credentials (unsetricted)
+   > Kind
+     In kind chose "SSH username with private Key"
+   > Scope
+   > Global (Jenkins, Node, Items, All child items, etc)
+   > Username
+     Enter your username in where is private and public key available 
+   > Enter directly
+   > Key
+     Click Add button and enter the private key
+
+Step 8: 
+* Host Key Verification Strategy
+* manually trusted key verfication startegy 
+
+Step 9:
+* Availability
+* Keep this agent online as much as possible
