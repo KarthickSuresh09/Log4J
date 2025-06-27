@@ -33,3 +33,11 @@ Step 5:
 * Build Steps
 In build steps chose "Invoke top-level Maven targets" 
 * Invoke top-level Maven targets
+You need to chose your maven name
+* mvn
+In Goals Section you need to enter the job goals like "compile"
+* Advance 
+In advance section 
+* Pom
+In pom you need to enter pom.xml path in you repository
+"SpringBootWithOutAjax-Level1-master/pom.xml"
