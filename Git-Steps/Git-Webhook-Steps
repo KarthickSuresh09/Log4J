@@ -1,0 +1,13 @@
+A Git Webhook is a way for Git repositories (like GitHub, GitLab, Bitbucket, etc.) to automatically notify
+other systems when certain events happen — such as code being pushed, a pull request being opened, or a branch being deleted.
+
+
+WebHook Steps:
+
+Step1 : Enable github-webhook @jenkins build trigger
+
+ Step2 : Go to your github Repo ===> SETTINGS =====> webhook
+
+ payload URL:
+            http://3.110.48.174:8080/github-webhook/
+   http;//<JENKINS_SERVER_IP>:8080/github-webhook/
