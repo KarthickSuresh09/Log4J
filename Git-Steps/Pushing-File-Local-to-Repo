@@ -1,0 +1,22 @@
+git init
+
+Step 1:
+git add Sample-sts-applicaton
+
+Step 2:
+git commit -m "spample push"
+
+Step 3:
+git branch -M main
+
+Step 4:
+* cross checking any remote repo is connected : git remote -v
+* If it is connected, If you want to remove the repo : git remote remove origin
+
+Step 5:
+Adding remote Repository
+git remote add origin https://github.com/KarthickSuresh09/Sample-sts-applicaton.git
+
+Step 6:
+Pushing a file centeral Repo
+git push -u origin main
