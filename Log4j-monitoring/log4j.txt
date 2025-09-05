@@ -1,0 +1,16 @@
+WARN    2025-09-05 10:16:04,924 [main]  com.Log4jMonitoringApplication - check the code
+WARN    2025-09-05 10:16:05,807 [restartedMain]  com.Log4jMonitoringApplication - check the code
+WARN    2025-09-05 10:18:01,063 [main]  com.Log4jMonitoringApplication - check the code
+WARN    2025-09-05 10:18:01,466 [restartedMain]  com.Log4jMonitoringApplication - check the code
+WARN    2025-09-05 10:21:01,046 [main]  com.Log4jMonitoringApplication - check the code
+WARN    2025-09-05 10:21:01,557 [restartedMain]  com.Log4jMonitoringApplication - check the code
+WARN    2025-09-05 10:25:30,150 [main]  com.Log4jMonitoringApplication - check the code
+WARN    2025-09-05 10:25:30,664 [restartedMain]  com.Log4jMonitoringApplication - check the code
+WARN    2025-09-05 10:27:27,845 [main]  com.Log4jMonitoringApplication - check the code
+WARN    2025-09-05 10:27:28,246 [restartedMain]  com.Log4jMonitoringApplication - check the code
+WARN    2025-09-05 10:29:08,548 [main]  com.Log4jMonitoringApplication - check the code
+WARN    2025-09-05 10:29:08,925 [restartedMain]  com.Log4jMonitoringApplication - check the code
+INFO    2025-09-05 10:29:15,872 [restartedMain]  com.Log4jMonitoringApplication - code does not have issue
+INFO    2025-09-05 10:29:25,175 [http-nio-8080-exec-1]  com.controller.contoller - No problem
+WARN    2025-09-05 10:29:25,175 [http-nio-8080-exec-1]  com.controller.contoller - Have little bit error
+ERROR   2025-09-05 10:29:25,176 [http-nio-8080-exec-1]  com.controller.contoller - unable to run
