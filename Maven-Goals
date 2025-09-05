@@ -1,0 +1,11 @@
+| Goal / Phase | Command        | What it does                                                                      |
+| ------------ | -------------- | --------------------------------------------------------------------------------- |
+| **clean**    | `mvn clean`    | Deletes the `target/` folder (removes compiled files, builds fresh).              |
+| **compile**  | `mvn compile`  | Compiles source code from `src/main/java` → `target/classes`.                     |
+| **test**     | `mvn test`     | Runs tests from `src/test/java` using JUnit/TestNG.                               |
+| **package**  | `mvn package`  | Creates a distributable package (like JAR/WAR) inside `target/`.                  |
+| **install**  | `mvn install`  | Installs the built artifact into the local Maven repository (`~/.m2/repository`). |
+| **deploy**   | `mvn deploy`   | Deploys the artifact to a remote repository (e.g., Nexus/Artifactory).            |
+| **validate** | `mvn validate` | Checks if project is correct and all necessary info is available.                 |
+| **verify**   | `mvn verify`   | Runs checks to ensure project is valid (integration tests, quality checks).       |
+| **site**     | `mvn site`     | Generates project documentation site using Maven reporting plugins.               |
