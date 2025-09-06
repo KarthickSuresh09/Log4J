@@ -1,5 +1,9 @@
-FROM openjdk:17-jdk-slim
-WORKDIR /app
-COPY target/*.jar app.jar
-EXPOSE 9090
-ENTRYPOINT ["java", "-jar", "app.jar"]
+docker stop myapp || true
+docker rm myapp || true
+docker rmi myapp:latest || true
+
+# Build Docker image using the Dockerfile in repo
+docker build -t myapp:latest .
+
+# Run container
+docker run -d --name myapp -p 8080:8080 myapp:latest
