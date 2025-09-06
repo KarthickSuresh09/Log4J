@@ -6,4 +6,4 @@ docker rmi myapp:latest || true
 docker build -t myapp:latest .
 
 # Run container
-docker run -d --name myapp -p 8080:8080 myapp:latest
+docker run -d --name myapp -p 9090:9090 myapp:latest
